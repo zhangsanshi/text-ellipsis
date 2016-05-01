@@ -1,0 +1,19 @@
+{
+  "name": "text-ellipsis",
+  "version": "0.0.1",
+  "description": "ellipsis multi line text with jQuery",
+  "main": "textEllipsis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhangsanshi/text-ellipsis.git"
+  },
+  "keywords": [
+    "ellipsis multi text",
+    "jquery-plugin"
+  ],
+  "author": "zhangsanshi",
+  "license": "MIT"
+}
