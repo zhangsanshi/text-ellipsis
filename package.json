@@ -1,6 +1,6 @@
 {
   "name": "text-ellipsis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ellipsis multi line text with jQuery",
   "main": "textEllipsis.js",
   "scripts": {
