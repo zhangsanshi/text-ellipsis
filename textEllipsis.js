@@ -2,13 +2,15 @@
     $.fn.textEllipsis = function () {
         this.each(function (key, item) {
             var $this = $(this),
-                $clone = $(this.cloneNode(true)).hide(),
+                $clone = $(this.cloneNode(true)),
                 maxHeight = $this.height(),
                 text = '',
                 originText = '';
             $clone.css({
                 height: 'auto',
-                overflow: 'visible'
+                overflow: 'visible',
+                visibility: 'hidden',
+                'margin-top': maxHeight + 'px'
             });
             $this.after($clone);
             originText = text = $clone.text();
